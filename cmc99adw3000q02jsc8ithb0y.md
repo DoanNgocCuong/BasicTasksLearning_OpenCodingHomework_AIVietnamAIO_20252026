@@ -53,8 +53,7 @@ Có nhiều bản phân phối Linux phổ biến. Một trong số hay sử d�
 >     Ví dụ: Bạn không thể thao tác với quá trình khởi động (bootloader như GRUB), không làm việc với phân vùng ổ cứng một cách trực tiếp, hoặc đơn giản như khi shutdown, restart hệ thống thì chỉ dừng lại ở mức tắt máy ảo của WSL2 chứ không mô phỏng đúng quy trình của một hệ điều hành Linux thực sự. Điều này khiến việc học quản trị hệ thống bị giới hạn và không sát với thực tế.
 >     
 
-> Khi đi thực tập vào 27/06/2024, mình thậm chí còn không biết cả Docker, Github, Ubutu  
-> Nhưng qua thời gian nhảy vào các bài toán thực: Không biết cũng phải deploy → dần dần Docker, Github, Unbuntu của mình tăng trưởng.  
+> Thời điểm bắt đầu đi thực tập 27/06/2024 (tròn 1 năm lúc mình viết bài này) và mình thậm chí còn không biết cả Docker, Github, Ubutu. Nhờ vào việc nhảy vào các bài toán thực: Không biết cũng phải deploy → dần dần Docker, Github, Unbuntu của mình tăng trưởng.  
 > \- Ban đầu khi cần deploy cần gửi sources cho đồng đội nhờ → Sau dần được vào trong server Linux của công ty!
 
 ## 2.2 Linux Directory Structure
