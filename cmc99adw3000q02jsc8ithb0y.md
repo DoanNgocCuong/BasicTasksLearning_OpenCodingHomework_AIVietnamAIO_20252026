@@ -25,9 +25,9 @@ Resources:
 
 # 2\. Các bản phân phối Linux phổ biến
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750663929277/9e230d34-f088-4af7-840a-00d7a1e1125d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750694627832/9a7d9c34-e9c3-48fe-b97c-957cafcb412a.png align="center")
 
-Có nhiều bản phân phối Linux phổ biến. Một trong số hay sử dụng đó là: Ubuntu
+Có nhiều bản phân phối Linux phổ biến. Một trong số hay sử dụng nhất đó là: Ubuntu
 
 ## **2.1 Hướng dẫn cài đặt Ubuntu**
 
