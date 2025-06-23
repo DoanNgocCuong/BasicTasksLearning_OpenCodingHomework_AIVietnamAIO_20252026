@@ -3,6 +3,7 @@ title: "Linux - Docker - Github [Nhật ký học và làm]"
 datePublished: Mon Jun 23 2025 15:33:14 GMT+0000 (Coordinated Universal Time)
 cuid: cmc99adw3000q02jsc8ithb0y
 slug: linux-docker-github-nhat-ky-hoc-va-lam
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750695970891/a0ff5da1-79dd-41eb-9b75-99fb3d6125bb.png
 tags: linux, engineering, mlops
 
 ---
