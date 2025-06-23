@@ -9,7 +9,7 @@ tags: linux, engineering, mlops
 
 Resources:  
 1\. AIO: [AI VIET NAM](https://aivnlearning.edu.vn/)  
-[2\. FSDS:](https://aivnlearning.edu.vn/) [https://fullstackdatascience.com/](https://fullstackdatascience.com/)
+2\. FSDS: [https://fullstackdatascience.com/](https://fullstackdatascience.com/)  
 
 > Đôi điều chú ý trong việc học:
 > 
@@ -77,7 +77,7 @@ Thông thường trong công việc, chúng ta sẽ thường SSH vào server c�
 
 ---
 
-### 2.3.1 **Lệnh điều hướng và quản lý thư m**
+### 2.3.1 **Lệnh điều hướng và quản lý thư mục**
 
 | Lệnh | Mô tả |
 | --- | --- |
@@ -97,15 +97,17 @@ Thông thường trong công việc, chúng ta sẽ thường SSH vào server c�
 | `docker compose down` | Dừng và xoá containers, networks |
 | `docker compose ps` | Kiểm tra trạng thái container |
 
-### 2.3.3 Các lệnh nâng cao hữu dụng
+### **2.3.3. Các lệnh nâng cao hữu dụng**
 
-Trong quá trình làm việc. Mình rất hay gặp task như sau:  
-\- Mình cần chạy script ngầm file script.py trên server và có thể tắt máy hoặc đóng terminal mà tiến trình vẫn tiếp tục :D (Để di chuyển về nhà).  
-\- Ngoài ra, cũng có lúc mình cần chia sẻ folder ảnh trên server ra bên ngoài để người bên ngoài có thể dễ dàng truy cập qua trình duyệt.  
-(Hoặc đơn giản là mình cần code 1 cái web demo và gửi cho bạn bè xài thử, bình thường đơn giản nhất sẽ là: deploy lên đâu đó, hoặc là code web HTML và gửi file HTML. Thay vào đó mình dùng cách code 1 file HTML và bật nó thông qua HTTP server và gửi cho mn)
+Trong quá trình làm việc, mình rất hay gặp các task như sau:
 
-| **Mục tiêu** | **Lệnh ví dụ** |
+* Cần chạy script Python ngầm trên server để có thể **đóng terminal hoặc tắt máy** mà tiến trình vẫn tiếp tục (ví dụ: chạy xong rồi về nhà 😄).
+    
+* Cần **chia sẻ folder ảnh hoặc web HTML demo** cho người khác qua trình duyệt mà không cần deploy phức tạp (chỉ cần mở local HTTP server là đủ).  
+    (Thay vì phải loay hoay gửi ảnh ở Drive, hoặc loay hoay deploy web phức tạp thì HTML là 1 lựa chọn nhanh gọn)
+    
+
+| **Lệnh** | **Mô tả Use Case** |
 | --- | --- |
-| ✅ Chạy file Python ngầm | `nohup python3` [`script.py`](http://script.py) `> log.txt 2>&1 &`  
-`nohup python` [`AgeDetection.py`](http://AgeDetection.py) `> filename.out 2>&1 &` |
-| 🌐 Mở folder qua HTTP server | `nohup python3 -m http.server 3000 > web.log 2>&1 &` |
+| `nohup python3` [`script.py`](http://script.py) `> log.txt 2>&1 &` | Chạy [`script.py`](http://script.py) ở chế độ nền, log cả stdout và stderr vào `log.txt`. Terminal có thể đóng mà script vẫn chạy. |
+| `nohup python3 -m http.server 3000 > web.log 2>&1 &` | Mở HTTP server trên port `3000` để người khác có thể truy cập folder ảnh hoặc HTML demo qua trình duyệt. |
