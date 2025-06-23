@@ -8,7 +8,7 @@ tags: linux, engineering, mlops
 
 ---
 
-Resources:  
+Bài viết chủ yếu đến từ kinh nghiệm cá nhân, ngoài ra tham khảo 2 nguồn sau:  
 1\. AIO: [AI VIET NAM](https://aivnlearning.edu.vn/)  
 2\. FSDS: [https://fullstackdatascience.com/](https://fullstackdatascience.com/)  
 
@@ -117,3 +117,5 @@ Trong quá trình làm việc, mình rất hay gặp các task như sau:
 ---
 
 Linkedin: [https://www.linkedin.com/posts/doan-ngoc-cuong\_b%E1%BA%A5t-ng%E1%BB%9D-nh%E1%BA%ADn-ra-ch%C6%B0a-%C4%91%E1%BA%BFn-10-l%E1%BB%87nh-linux-activity-7342957359033368579-6lvT?utm\_source=social\_share\_send&utm\_medium=member\_desktop\_web&rcm=ACoAAC3wojwBYfkOk3q0b6y8Z\_UF\_N5ELvjQYVI](https://www.linkedin.com/posts/doan-ngoc-cuong_b%E1%BA%A5t-ng%E1%BB%9D-nh%E1%BA%ADn-ra-ch%C6%B0a-%C4%91%E1%BA%BFn-10-l%E1%BB%87nh-linux-activity-7342957359033368579-6lvT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC3wojwBYfkOk3q0b6y8Z_UF_N5ELvjQYVI)
+
+Link Blog: [Linux - Docker - Github \[Nhật ký học và làm\]](https://alo2025alconquer.hashnode.dev/linux-docker-github-nhat-ky-hoc-va-lam)
