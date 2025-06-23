@@ -7,6 +7,10 @@ tags: linux, engineering, mlops
 
 ---
 
+Resources:  
+1\. AIO: [AI VIET NAM](https://aivnlearning.edu.vn/)  
+[2\. FSDS:](https://aivnlearning.edu.vn/) [https://fullstackdatascience.com/](https://fullstackdatascience.com/)
+
 > Đôi điều chú ý trong việc học:
 > 
 > 1. Begin with the end X3-X10 in Mind. The end with the number?  
@@ -52,6 +56,27 @@ Có nhiều bản phân phối Linux phổ biến. Một trong số hay sử d�
 > Nhưng qua thời gian nhảy vào các bài toán thực: Không biết cũng phải deploy → dần dần Docker, Github, Unbuntu của mình tăng trưởng.  
 > \- Ban đầu khi cần deploy cần gửi sources cho đồng đội nhờ → Sau dần được vào trong server Linux của công ty!
 
-## 2.2 Các lệnh cơ bản
+## 2.2 Linux Directory Structure
 
-> Nhiều bạn hỏi có cần nhớ hết các lệnh không? Câu trả lời là: không, chỉ cần biết nó có và biết thuật ngữ để khi cần xài thì AI chat ra luôn.
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750693417987/98c3e9e2-1a71-43ff-8a97-5f4d33e53301.png align="center")
+
+* Đối với người dùng thông thường: **/home** là quan trọng nhất vì chứa tất cả dữ liệu cá nhân.
+    
+* Đối với quản trị hệ thống: **/etc** là quan trọng nhất vì chứa toàn bộ cấu hình hệ thống.
+    
+
+## 2.3 Các lệnh cơ bản
+
+> Nhiều bạn hỏi có cần nhớ hết các lệnh không? Câu trả lời là: không,  
+> Tuy nhiên chỉ có khoảng 20% lệnh phổ biến, làm nhiều sẽ tự nhiên nhớ.  
+> 80% Các lệnh còn lại chỉ cần biết nó có và biết thuật ngữ để khi cần xài thì AI search ra được.
+
+Thông thường trong công việc, chúng ta sẽ thường SSH vào server của công ty qua VSCode/Cursor, và thao tác rất đơn giản với các file
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750694116879/4df4553f-5e68-490f-9617-334792181fcf.png align="center")
+
+Các lệnh thường dùng là:
+
+```bash
+cd 
+```
