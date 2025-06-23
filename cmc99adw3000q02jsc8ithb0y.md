@@ -7,10 +7,10 @@ tags: linux, engineering, mlops
 
 ---
 
-> Đôi điều cần chú ý trong việc học:
+> Đôi điều chú ý trong việc học:
 > 
 > 1. Begin with the end X3-X10 in Mind. The end with the number?  
->     Mục đích học tập phần này của bạn là gì?
+>     Mục đích học tập phần này?
 >     
 > 2. Muốn đi nhanh: Mentor + Dự án thật + Dạy lại + Networking.
 >     
