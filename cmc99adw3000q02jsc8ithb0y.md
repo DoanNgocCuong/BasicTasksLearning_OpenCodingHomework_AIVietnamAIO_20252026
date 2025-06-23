@@ -43,17 +43,17 @@ Có nhiều bản phân phối Linux phổ biến. Một trong số hay sử d�
 
 > Tại sao Dual Boot Ubuntu được recommend hơn WSL2 (thay vì WSL2 rất tiện trong các IDEs VSCode, Cursor, ..)
 > 
-> * **Không truy cập trực tiếp phần cứng:**  
+> * **<mark>Không truy cập trực tiếp phần cứng:</mark>**  
 >     Ví dụ: Khi bạn muốn chạy các mô hình AI/Deep Learning sử dụng GPU (như TensorFlow với CUDA hoặc PyTorch GPU), WSL2 chỉ mới hỗ trợ một phần GPU với Windows 11 và driver đặc biệt, nhưng không đầy đủ và thường không ổn định. Ngoài ra, nếu bạn cần lập trình nhúng hoặc debug thiết bị ngoại vi qua cổng USB (ví dụ: nạp firmware cho Arduino, Raspberry Pi), WSL2 không cho phép truy cập trực tiếp đến các thiết bị này.
 >     
-> * **Không tương thích hoàn toàn phần mềm Linux:**  
+> * **<mark>Không tương thích hoàn toàn phần mềm Linux:</mark>**  
 >     Ví dụ: Các phần mềm giao diện đồ họa như GIMP, Blender, hoặc IDE như Eclipse trên Linux không chạy mượt trên WSL2, hoặc cần cấu hình phức tạp để hiển thị giao diện. Các dịch vụ hệ thống như NetworkManager, systemd, hoặc các phần mềm VPN nâng cao thường không hoạt động hoặc không thể cài đặt trên WSL2.
 >     
-> * **Thiếu trải nghiệm Linux thực sự:**  
+> * **<mark>Thiếu trải nghiệm Linux thực sự:</mark>**  
 >     Ví dụ: Bạn không thể thao tác với quá trình khởi động (bootloader như GRUB), không làm việc với phân vùng ổ cứng một cách trực tiếp, hoặc đơn giản như khi shutdown, restart hệ thống thì chỉ dừng lại ở mức tắt máy ảo của WSL2 chứ không mô phỏng đúng quy trình của một hệ điều hành Linux thực sự. Điều này khiến việc học quản trị hệ thống bị giới hạn và không sát với thực tế.
 >     
 
-> Khi đi làm, mình thậm chí còn không biết cả Docker, Github, Ubutu  
+> Khi đi thực tập vào 27/06/2024, mình thậm chí còn không biết cả Docker, Github, Ubutu  
 > Nhưng qua thời gian nhảy vào các bài toán thực: Không biết cũng phải deploy → dần dần Docker, Github, Unbuntu của mình tăng trưởng.  
 > \- Ban đầu khi cần deploy cần gửi sources cho đồng đội nhờ → Sau dần được vào trong server Linux của công ty!
 
