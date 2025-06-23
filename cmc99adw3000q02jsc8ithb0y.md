@@ -111,3 +111,9 @@ Trong quá trình làm việc, mình rất hay gặp các task như sau:
 | --- | --- |
 | `nohup python3` [`script.py`](http://script.py) `> log.txt 2>&1 &` | Chạy [`script.py`](http://script.py) ở chế độ nền, log cả stdout và stderr vào `log.txt`. Terminal có thể đóng mà script vẫn chạy. |
 | `nohup python3 -m http.server 3000 > web.log 2>&1 &` | Mở HTTP server trên port `3000` để người khác có thể truy cập folder ảnh hoặc HTML demo qua trình duyệt. |
+
+\[TO BE CONTINUED\]
+
+---
+
+Linkedin: [https://www.linkedin.com/posts/doan-ngoc-cuong\_b%E1%BA%A5t-ng%E1%BB%9D-nh%E1%BA%ADn-ra-ch%C6%B0a-%C4%91%E1%BA%BFn-10-l%E1%BB%87nh-linux-activity-7342957359033368579-6lvT?utm\_source=social\_share\_send&utm\_medium=member\_desktop\_web&rcm=ACoAAC3wojwBYfkOk3q0b6y8Z\_UF\_N5ELvjQYVI](https://www.linkedin.com/posts/doan-ngoc-cuong_b%E1%BA%A5t-ng%E1%BB%9D-nh%E1%BA%ADn-ra-ch%C6%B0a-%C4%91%E1%BA%BFn-10-l%E1%BB%87nh-linux-activity-7342957359033368579-6lvT?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC3wojwBYfkOk3q0b6y8Z_UF_N5ELvjQYVI)
