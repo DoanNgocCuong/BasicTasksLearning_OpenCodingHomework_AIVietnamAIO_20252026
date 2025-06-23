@@ -75,8 +75,37 @@ Thông thường trong công việc, chúng ta sẽ thường SSH vào server c�
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750694116879/4df4553f-5e68-490f-9617-334792181fcf.png align="center")
 
-Các lệnh thường dùng là:
+---
 
-```bash
-cd 
-```
+### 2.3.1 **Lệnh điều hướng và quản lý thư m**
+
+| Lệnh | Mô tả |
+| --- | --- |
+| `pwd` | Hiển thị đường dẫn thư mục hiện tại |
+| `cd <dir>` | Di chuyển vào thư mục `<dir>` |
+| `cd ..` | Lùi về thư mục cha |
+| `cd ~` | Về thư mục home của user |
+| `ls` | Liệt kê nội dung thư mục |
+| `mkdir <name>` | Tạo thư mục mới |
+
+### **2.3.2 Docker Compose**
+
+| Lệnh | Mô tả |
+| --- | --- |
+| `docker compose up --build -d` | Build lại và chạy container ở chế độ nền |
+| `docker compose logs` | Hiển thị log của các service |
+| `docker compose down` | Dừng và xoá containers, networks |
+| `docker compose ps` | Kiểm tra trạng thái container |
+
+### 2.3.3 Các lệnh nâng cao hữu dụng
+
+Trong quá trình làm việc. Mình rất hay gặp task như sau:  
+\- Mình cần chạy script ngầm file script.py trên server và có thể tắt máy hoặc đóng terminal mà tiến trình vẫn tiếp tục :D (Để di chuyển về nhà).  
+\- Ngoài ra, cũng có lúc mình cần chia sẻ folder ảnh trên server ra bên ngoài để người bên ngoài có thể dễ dàng truy cập qua trình duyệt.  
+(Hoặc đơn giản là mình cần code 1 cái web demo và gửi cho bạn bè xài thử, bình thường đơn giản nhất sẽ là: deploy lên đâu đó, hoặc là code web HTML và gửi file HTML. Thay vào đó mình dùng cách code 1 file HTML và bật nó thông qua HTTP server và gửi cho mn)
+
+| **Mục tiêu** | **Lệnh ví dụ** |
+| --- | --- |
+| ✅ Chạy file Python ngầm | `nohup python3` [`script.py`](http://script.py) `> log.txt 2>&1 &`  
+`nohup python` [`AgeDetection.py`](http://AgeDetection.py) `> filename.out 2>&1 &` |
+| 🌐 Mở folder qua HTTP server | `nohup python3 -m http.server 3000 > web.log 2>&1 &` |
