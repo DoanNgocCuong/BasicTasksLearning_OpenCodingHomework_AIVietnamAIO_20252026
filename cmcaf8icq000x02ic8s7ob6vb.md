@@ -19,8 +19,6 @@ tags: artificial-intelligence, python, aio2025
 
 [https://alo2025alconquer.hashnode.dev/m01w03t5-database-sql-3](https://alo2025alconquer.hashnode.dev/m01w03t5-database-sql-3)
 
-# **M01W03F - OOP+Data Structure (Queue, Stack and Tree)**
-
 # **M01W03 - Unix&Docker**
 
 [https://alo2025alconquer.hashnode.dev/linux-docker-github-nhat-ky-hoc-va-lam](https://alo2025alconquer.hashnode.dev/linux-docker-github-nhat-ky-hoc-va-lam)
